@@ -13,7 +13,7 @@ To run the project we need few configurations and setups as outlined:
 	After downloading the Kafka single cluster, extract the folder and put it into your local drive. In here, we need to configure the Zookeeper. Zookeeper is basically used to manage the Kafka cluster and provides synchronization within distributed systems.
 	Create the folder into the Kafka folder with the name of zookeeper to keep the file log.
 	Go to your Kafka config directory. For me it’s `` D:\kafka\kafka_2.12-2.2.0\config ``, edit the *zookeeper.properties* file and change the following line,
-	 `` "dataDir=D:\Kafka\kafka_2.12-2.2.0\zookeeper" ``
+	 `` dataDir=D:\Kafka\kafka_2.12-2.2.0\zookeeper ``
 
 
 
