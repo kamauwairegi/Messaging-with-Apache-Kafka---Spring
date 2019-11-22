@@ -53,3 +53,7 @@ To run the project we need few configurations and setups as outlined:
 	Go to your Kafka installation directory: For me, it’s ``D:\kafka\kafka_2.12-2.2.0\bin\windows``
 	Open a command prompt and run the following command,
 	``kafka-topics.bat --create --zookeeper localhost:2181 -replication-factor 1 --partitions 1 --topic chat-message``  
+	
+Finally, checkout and run the project, and on your broser visit: http://localhost:8080/send?message=hello
+
+Check the IDE console for received message
