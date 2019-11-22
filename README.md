@@ -34,7 +34,7 @@ To run the project we need few configurations and setups as outlined:
 
 4. How to start ZooKeeper and Kafka Server
    You need to make sure your ZooKeeper instance is up and running before starting the Kafka server.
-   So, to run the ZooKeeper and Kafka instance, we need some commands to be available globally. Go to the Windows folder of Kafka folder> copy the path and set the path into the Environment Variable- The path should be like ``"D:\kafka\kafka_2.12-2.2.0\bin\windows"``
+   So, to run the ZooKeeper and Kafka instance, we need some commands to be available globally. Go to the Windows folder of Kafka folder> copy the path and set the path into the Environment Variable- The path should be like ``D:\kafka\kafka_2.12-2.2.0\bin\windows``
    
 5. Go to your Kafka installation directory: For me, it’s ``D:\kafka\kafka_2.12-2.2.0\bin\windows``
    Open a command prompt and run the following command,
